@@ -1,0 +1,16 @@
+.searchBarBlock {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4em;
+}
+
+.searchBar {
+  width: 20%;
+  min-width: 15em;
+  border-radius: 2em;
+  height: 2em;
+}
+
+.searchBarBlock img {
+  padding: 0;
+}
