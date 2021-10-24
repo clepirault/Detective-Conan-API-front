@@ -11,7 +11,6 @@ function APIList(): ReactElement {
   const [getCharacterByRole, setGetCharacterByRole] = useState('');
   useEffect(() => {
     axios
-      //.get('http://localhost:8000/characters')
       .get('https://detective-conan-api.herokuapp.com/characters')
       .then((response) => response.data)
       .then((data) => {
