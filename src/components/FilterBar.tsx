@@ -10,27 +10,67 @@ interface Props {
   secondValue: string;
   thirdValue: string;
   handleGetCharacterByRole: any;
+  allItems: string;
 }
 
-function FilterBar({ type, name, firstItem, secondItem, thirdItem, firstValue, secondValue, thirdValue, handleGetCharacterByRole }: Props): ReactElement {
+function FilterBar({
+  type,
+  name,
+  firstItem,
+  secondItem,
+  thirdItem,
+  firstValue,
+  secondValue,
+  thirdValue,
+  handleGetCharacterByRole,
+  allItems,
+}: Props): ReactElement {
   return (
     <div>
       <form>
+        <label htmlFor={allItems}>
+          <input
+            type={type}
+            name={name}
+            id={firstItem}
+            value=''
+            onChange={handleGetCharacterByRole}
+          />
+          <span>{allItems}</span>
+        </label>
         <label htmlFor={firstItem}>
+          <input
+            type={type}
+            name={name}
+            id={firstItem}
+            value={firstValue}
+            onChange={handleGetCharacterByRole}
+          />
           <span>{firstItem}</span>
-          <input type={type} name={name} id={firstItem} value={firstValue} onChange={handleGetCharacterByRole} />
         </label>
         <label htmlFor={secondItem}>
+          <input
+            type={type}
+            name={name}
+            id={secondItem}
+            value={secondValue}
+            onChange={handleGetCharacterByRole}
+          />
           <span>{secondItem}</span>
-          <input type={type} name={name} id={secondItem} value={secondValue} onChange={handleGetCharacterByRole} />
         </label>
         <label htmlFor={thirdItem}>
+          <input
+            type={type}
+            name={name}
+            id={thirdItem}
+            value={thirdValue}
+            onChange={handleGetCharacterByRole}
+          />
           <span>{thirdItem}</span>
-          <input type={type} name={name} id={thirdItem} value={thirdValue} onChange={handleGetCharacterByRole} />
         </label>
       </form>
     </div>
-  )
+  );
 }
 
 export default FilterBar;
