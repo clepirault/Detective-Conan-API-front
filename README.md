@@ -1,3 +1,17 @@
-Petit projet en Typescript pour justement mettre en pratique cette nouvelle compétence qui vient compléter mon apprentissage 🤗
-Il s'agit du déploiement d'une API sur le thème du manga/dessin animé Détective Conan, API que j'ai créé en amont.
-Que vous soyez ou non aficionados de Détective Conan, j'espère que ce projet vous plaira.
+# Detective Conan API
+
+<p>👩 Personal project</p>
+<p>💻 Responsive</p>
+
+## Goals 🎯 :
+* Create and deploy an API on Detective Conan universe
+* Show the API into a client project
+
+## Stack 💎 :
+* Frontend : **TypeScript, React**
+* Backend : **Node, MySQL** 👉 [Backend repository](https://github.com/clepirault/Detective-Conan-API-back)
+
+## Links 🔗 :
+[API on Heroku](https://detective-conan-api.herokuapp.com/characters)
+[Portfolio](https://clemence-pirault.vercel.app/portfolio/detective-conan-api)
+[Backend repository](https://github.com/clepirault/Detective-Conan-API-back)
