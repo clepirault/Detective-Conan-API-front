@@ -12,6 +12,6 @@
 * Backend : **Node, MySQL** 👉 [Backend repository](https://github.com/clepirault/Detective-Conan-API-back)
 
 ## Links 🔗 :
-[API on Heroku](https://detective-conan-api.herokuapp.com/characters)
-[Portfolio](https://clemence-pirault.vercel.app/portfolio/detective-conan-api)
-[Backend repository](https://github.com/clepirault/Detective-Conan-API-back)
+* [API on Heroku](https://detective-conan-api.herokuapp.com/characters)
+* [Portfolio](https://clemence-pirault.vercel.app/portfolio/detective-conan-api)
+* [Backend repository](https://github.com/clepirault/Detective-Conan-API-back)
