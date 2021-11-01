@@ -4,8 +4,8 @@
 <p>💻 Responsive</p>
 
 ## Goals 🎯 :
-* Create and deploy an API on Detective Conan universe
-* Show the API into a client project
+* Create and deploy an API on Detective Conan universe 👉 [API](https://detective-conan-api.herokuapp.com/characters)
+* Show the API into a client project 👉 [Website](https://api-detective-conan.netlify.app/)
 
 ## Stack 💎 :
 * Frontend : **TypeScript, React**
