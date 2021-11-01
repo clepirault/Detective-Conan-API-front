@@ -9,7 +9,7 @@
 
 ## Stack 💎 :
 * Frontend : **TypeScript, React**
-* Backend : **Node, MySQL** 👉 [Server repository](https://github.com/clepirault/Detective-Conan-API-back)
+* Backend : **Node, MySQL** 👉 [Backend project](https://github.com/clepirault/Detective-Conan-API-back)
 
 ## Links 🔗 :
 * [API on Heroku](https://detective-conan-api.herokuapp.com/characters)
